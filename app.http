@@ -1,0 +1,10 @@
+POST /api/calculateTotal
+Content-Type: application/json
+
+{
+  "products": [
+    { "name": "Product 1", "price": 10, "quantity": 2 },
+    { "name": "Product 2", "price": 20, "quantity": 1 },
+    { "name": "Product 3", "price": 5, "quantity": 4 }
+  ]
+}
