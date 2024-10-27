@@ -8,7 +8,7 @@ app.use(bodyParser.json())
 app.post('/api/calculateTotal', (req, res) => {
   const products = req.body.products
 
-  // Validate if the list of products exists and is an array
+
   if (!Array.isArray(products)) {
     return res
       .status(400)
@@ -25,7 +25,7 @@ app.post('/api/calculateTotal', (req, res) => {
     }
   })
 
-  // Return the total value of products
+  
   res.json({totalValue})
 })
 
