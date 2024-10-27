@@ -1,4 +1,4 @@
-POST /api/calculateTotal
+POST 
 Content-Type: application/json
 
 {
